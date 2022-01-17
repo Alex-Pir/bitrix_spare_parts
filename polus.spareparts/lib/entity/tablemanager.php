@@ -4,14 +4,12 @@ namespace Citfact\Rest\Entity\Export;
 use Bitrix\Main\Application;
 use Bitrix\Main\DB\SqlQueryException;
 use Bitrix\Main\Entity\DataManager;
-use Bitrix\Main\Localization\Loc;
 use Exception;
 use Polus\SpareParts\Entity\SparePartFileTable;
 use Polus\SpareParts\Entity\SparePartTable;
-use ReflectionClass;
 
 /**
- * Класс для работы с таблицами экспорта
+ * Класс для работы с таблицами
  */
 class TableManager {
 
